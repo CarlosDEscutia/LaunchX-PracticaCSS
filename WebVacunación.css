@@ -1,0 +1,560 @@
+    /* Universal*/
+    
+    * {
+        font-family: 'Poppins', sans-serif;
+        padding: 0;
+        margin: 0;
+    }
+    
+    p {
+        font-size: 20px;
+        font-weight: 500;
+        color: #6d7b93;
+    }
+    
+    body {
+        background: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    section {
+        display: flex;
+    }
+    
+    h2 {
+        color: #1f3e72;
+        font-weight: 600;
+    }
+    
+    h3 {
+        color: #1f3e72;
+        font-weight: 700;
+    }
+    
+    a {
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 500;
+        color: #6d7b93;
+    }
+    
+    .subtitulos {
+        text-align: left;
+        font-weight: bold;
+        font-size: 45px;
+        color: #1f3e72;
+    }
+    /* Header */
+    
+    .header {
+        height: 125px;
+        background-color: #F2F2F2;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 2;
+    }
+    
+    .logo {
+        font-weight: 700;
+        color: #2747c5;
+        font-size: 40px;
+    }
+    /* Botones */
+    
+    .menu {
+        margin: 5px;
+        padding: 15px 25px;
+        font-weight: 600;
+        color: #6d7b93;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    .menu:hover,
+    .active {
+        background: linear-gradient(145deg, #3b5bd9 35%, #2444c2 100%);
+        border-radius: 7px;
+        display: inline-block;
+        cursor: pointer;
+        color: #F2F2F2;
+        text-decoration: none;
+        -webkit-box-shadow: 14px 17px 35px -14px rgba(163, 181, 232, 1);
+        -moz-box-shadow: 14px 17px 35px -14px rgba(163, 181, 232, 1);
+        box-shadow: 14px 17px 35px -14px rgba(163, 181, 232, 1);
+    }
+    
+    .headerfijo {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    /* Landing Page */
+    
+    .mitad {
+        flex: 0 0 calc(50%)
+    }
+    
+    .Imagen1 {
+        height: 1080px;
+        width: 960px;
+        background: linear-gradient(145deg, #0D94E4 35%, #3269D9 100%);
+        overflow: hidden;
+        background-image: url("https://img.freepik.com/free-photo/front-view-female-nurse-white-medical-suit-with-red-mask-injection-her-hands-blue_179666-32947.jpg?t=st=1646875767~exp=1646876367~hmac=ddf6a76e6ef718ce1e42b6ec5d6b6cc253165f468e1389c376201c6389a1b4df&w=1380");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .fondocolor {
+        background-color: #F2F2F2;
+    }
+    
+    .Tituloizquierda {
+        text-align: left;
+        font-weight: bold;
+        font-size: 85px;
+        color: #1f3e72;
+    }
+    
+    .acomodotexto {
+        margin-left: 150px;
+        margin-top: 125px;
+        margin-right: 150px;
+    }
+    
+    .espaciotexto {
+        margin: 50px 0px;
+        line-height: 30px;
+    }
+    /* Iconos */
+    
+    .icon_yellow {
+        color: #ffd012;
+        height: 20px;
+    }
+    
+    .icon_blue {
+        color: #2d4dcb;
+        height: 20px;
+    }
+    
+    .box_icon {
+        border-radius: 8px;
+        height: 30px;
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .box_yellow {
+        background: #fffcf1;
+        background: radial-gradient(circle farthest-corner at center center, #fffcf1 0%, #fff8de 40%);
+        background: -webkit-radial-gradient(circle farthest-corner at center center, #fffcf1 0%, #fff8de 40%);
+        background: -moz-radial-gradient(circle farthest-corner at center center, #fffcf1 0%, #fff8de 40%);
+        box-shadow: 1px 7px 12px 0px rgba(232, 222, 189, 1);
+        -webkit-box-shadow: 1px 7px 12px 0px rgba(232, 222, 189, 1);
+        -moz-box-shadow: 1px 7px 12px 0px rgba(232, 222, 189, 1);
+    }
+    
+    .box_blue {
+        background: #f1f5ff;
+        background: radial-gradient(circle farthest-corner at center center, #f1f5ff 0%, #cdd6f4 40%);
+        background: -webkit-radial-gradient(circle farthest-corner at center center, #f1f5ff 0%, #cdd6f4 40%);
+        background: -moz-radial-gradient(circle farthest-corner at center center, #f1f5ff 0%, #cdd6f4 40%);
+        box-shadow: 1px 7px 12px 0px #b4c1f3;
+        -webkit-box-shadow: 1px 7px 12px 0px #b4c1f3;
+        -moz-box-shadow: 1px 7px 12px 0px #b4c1f3;
+    }
+    
+    .box_blue_nosh {
+        background: #f1f5ff;
+        background: radial-gradient(circle farthest-corner at center center, #f1f5ff 0%, #cdd6f4 40%);
+        background: -webkit-radial-gradient(circle farthest-corner at center center, #f1f5ff 0%, #cdd6f4 40%);
+        background: -moz-radial-gradient(circle farthest-corner at center center, #f1f5ff 0%, #cdd6f4 40%);
+    }
+    
+    .iconsposition {
+        display: flex;
+        justify-content: left;
+    }
+    
+    .icontext {
+        margin: 0px 35px;
+        font-size: 18px;
+        color: #1f3e72;
+    }
+    
+    .icon_margin {
+        margin: 0px 50px;
+        margin-left: 0px;
+    }
+    /* Schedule your vaccinations */
+    
+    .scheduleicon {
+        display: flex;
+        justify-content: left;
+        margin-right: 25px;
+        margin-top: 75px;
+    }
+    
+    .schedule_icon_margin {
+        margin: 0px 25px;
+        margin-left: 0px;
+        margin-top: 75px
+    }
+    /* Submit box */
+    
+    .caja_submit {
+        border: #F2F2F2;
+        height: 150px;
+        width: 1000px;
+        border-radius: 10px;
+        margin-top: 35px;
+        margin-left: -500px;
+        transform: translate(500px);
+        -webkit-box-shadow: 0px 17px 35px -20px rgba(163, 181, 232, 1);
+        -moz-box-shadow: 0px 17px 35px -20px rgba(163, 181, 232, 1);
+        box-shadow: 0px 17px 35px -20px rgba(163, 181, 232, 1);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .frosted {
+        background-color: rgba(255, 255, 255, 0.70);
+        backdrop-filter: blur(5px);
+    }
+    
+    .acomodosubmit {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 15px;
+        transform: translateX(-10px);
+    }
+    
+    .iconspacing {
+        margin: 0px 20px;
+    }
+    
+    .submit {
+        background: linear-gradient(145deg, #3b5bd9 35%, #2444c2 100%);
+        border-radius: 7px;
+        padding: 20px 50px;
+        font-size: 20px;
+        margin-left: 25px;
+        font-weight: 500;
+        display: inline-block;
+        cursor: pointer;
+        color: #F2F2F2;
+        text-decoration: none;
+        -webkit-box-shadow: 14px 17px 35px -14px rgba(163, 181, 232, 1);
+        -moz-box-shadow: 14px 17px 35px -14px rgba(163, 181, 232, 1);
+        box-shadow: 14px 17px 35px -14px rgba(163, 181, 232, 1);
+    }
+    
+    .submit:hover {
+        -webkit-box-shadow: 0px 8px 0px 0px #1f3e72;
+        -moz-box-shadow: 0px 8px 0px 0px #1f3e72;
+        box-shadow: 0px 8px 0px 0px #1f3e72;
+    }
+    
+    .textoencimado {
+        display: flex;
+        flex-direction: column;
+    }
+    /* Logotipos vacuna */
+    
+    .divacunas {
+        height: 250px;
+        overflow: hidden;
+    }
+    /* Porque vacunarse */
+    
+    .acomodorazon {
+        height: 350px;
+    }
+    
+    .cuadrosrazon {
+        width: 300px;
+        height: 375px;
+        border-radius: 10px;
+        background-color: #FFFFFF;
+        margin: 0px 0px;
+        margin-left: 135px;
+    }
+    
+    .cuadrosrazon:hover {
+        -webkit-box-shadow: 14px 17px 35px -14px rgba(163, 181, 232, 1);
+        -moz-box-shadow: 14px 17px 35px -14px rgba(163, 181, 232, 1);
+        box-shadow: 14px 17px 35px -14px rgba(163, 181, 232, 1);
+    }
+    
+    .iconresize {
+        height: 30px;
+    }
+    
+    .boxiconresize {
+        height: 45px;
+        width: 45px;
+    }
+    
+    .flexboxrazon {
+        height: 500px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    
+    .espaciotexto2 {
+        margin: 25px 25px;
+    }
+    /* Listas desplegables */
+    
+    .tamanopreparaciones {
+        height: 1000px;
+        margin: 150px 0px;
+    }
+    
+    .tamanoimagenprep {
+        width: 768px;
+        height: 500px;
+        background: linear-gradient(145deg, #0D94E4 35%, #3269D9 100%);
+    }
+    
+    .cuarenta {
+        flex: 0 0 calc(40%);
+    }
+    
+    .sesenta {
+        flex: 0 0 calc(50%);
+    }
+    
+    .tamanoimagen {
+        height: 600px;
+        margin-top: -100px;
+        margin-left: -100px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+    
+    .rect_prep {
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        background-color: #eef3ff;
+        border-radius: 10px;
+        margin: 25px 0px;
+    }
+    
+    .rect_prep:hover {
+        -webkit-box-shadow: 14px 17px 35px -14px rgba(163, 181, 232, 1);
+        -moz-box-shadow: 14px 17px 35px -14px rgba(163, 181, 232, 1);
+        box-shadow: 14px 17px 35px -14px rgba(163, 181, 232, 1);
+        border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+    }
+    
+    .alineado_prep {
+        margin-bottom: -12px;
+        display: flex;
+        align-items: center;
+    }
+    
+    input:checked~div {
+        display: block;
+    }
+    
+    .desplegar {
+        visibility: hidden;
+    }
+    
+    .texto_react {
+        padding-top: 20px;
+        display: none;
+        grid-column: 2/3;
+    }
+    
+    .margeniconotexto {
+        margin-right: 20px;
+    }
+    
+    .contenedor_prep {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 3%;
+    }
+    
+    .rectangulo_proporciones {
+        padding: 0px;
+        display: grid;
+        grid-template-columns: 0fr 5fr;
+        align-items: center;
+    }
+    
+    .acomodotexto2 {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    
+    .sectionmargin {
+        margin: 75px 0px;
+    }
+    
+    .sectionmargin1 {
+        width: fit-content;
+    }
+    /* Grid */
+    
+    .emergencysize {
+        height: 800px;
+    }
+    
+    .grid_layout {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        height: 350px;
+        width: 100%;
+    }
+    
+    .acomodocajashz {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    
+    .acomodocajasvt {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bottonemergencia {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+        color: #2444c2;
+        border-radius: 10px;
+        background-color: #eef3ff;
+        text-align: center;
+        padding: 15px 35px;
+        margin-top: 8%;
+        margin-left: 20px;
+        align-items: center;
+    }
+    
+    .cajaemergencia {
+        margin: 25px;
+        margin-left: 0px;
+        align-items: center;
+        padding-right: 20px;
+        padding-left: 0px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    
+    .cajaemergencia:hover {
+        -webkit-box-shadow: 0px 17px 35px -14px rgba(163, 181, 232, 1);
+        -moz-box-shadow: 0px 17px 35px -14px rgba(163, 181, 232, 1);
+        box-shadow: 0px 17px 35px -14px rgba(163, 181, 232, 1);
+        border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+    }
+    
+    .bottonemergencia:hover {
+        background: linear-gradient(145deg, #3b5bd9 35%, #2444c2 100%);
+        border-radius: 7px;
+        display: inline-block;
+        cursor: pointer;
+        color: #F2F2F2;
+        text-decoration: none;
+        -webkit-box-shadow: 14px 17px 35px -14px rgba(163, 181, 232, 1);
+        -moz-box-shadow: 14px 17px 35px -14px rgba(163, 181, 232, 1);
+        box-shadow: 14px 17px 35px -14px rgba(163, 181, 232, 1);
+    }
+    
+    .c1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    
+    .c2 {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    
+    .c3 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    
+    .c4 {
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+    /* Footer */
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        background-color: #eef3ff;
+    }
+    
+    .footerhz {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .footervt {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer {
+        background-color: #eef3ff;
+        height: 350px;
+    }
+    
+    .logofooter {
+        font-weight: 700;
+        color: #2747c5;
+        font-size: 25px;
+    }
+    
+    .pfooter {
+        font-size: 15px;
+        line-height: 27px;
+        width: 55%;
+    }
+    
+    .headerfooter {
+        font-weight: 700;
+    }
+    
+    .spacingfooter {
+        margin: 10px;
+        margin-left: 0px;
+    }
+    
+    .spacingfooterheaders {
+        margin: 50px 50px;
+    }
+    
+    .copyrtext {
+        font-size: 15px;
+        margin-top: 125px;
+    }
+    
+    .termsprivacy {
+        margin-top: 65px;
+    }
+    
+    .terms {
+        transform: translateX(75px);
+    }
